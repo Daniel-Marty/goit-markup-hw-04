@@ -583,6 +583,7 @@ text-transform: uppercase;
 }
 .portfolio-link {
   text-decoration: none;
+  display: block;
 }
 .portfolio-title {
   color: var(--secondary-text-color);
@@ -635,9 +636,7 @@ text-transform: uppercase;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.card-hover:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+.card-hover:hover,
 .card-hover:focus {
-  outline: 5px solid red;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
